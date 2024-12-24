@@ -16,6 +16,8 @@ def row_correct(sudoku: list, row_no: int):
     else:
         result = False
     return result
+
+
 if __name__ == "__main__":
     sudoku = [
         [9, 0, 0, 0, 8, 0, 3, 0, 0],
